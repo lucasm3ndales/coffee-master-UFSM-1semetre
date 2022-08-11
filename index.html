@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>Coffee Master</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/Screenshot_1.png" alt="logo" width="120">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active texthead" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active texthead" href="#coffees">Cafés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active texthead" href="./pages/order.html">Pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active texthead" href="#about">Sobre nós</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="carrousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carrousel1.jpg" class="d-block w-100" alt="imagem1">
+          </div>
+          <div class="carousel-item active">
+            <img src="./images/carrousel2.jpg" class="d-block w-100" alt="imagem2">
+          </div>
+          <div class="carousel-item active">
+            <img src="./images/carrousel3.jpg" class="d-block w-100" alt="imagem3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid aboutus" id="about">
+      <h2>Sobre nós</h2>
+      <p>A Coffee Master nasceu com sonho de lhe servir o melhor da bebida mais famosa do café da manhã, com os melhores
+        ambientes e decorações estamos em todos os estados do Brasil.
+        Nosso café sofre um longo processo, meticulosamente supervisionado para ter o melhor sabor do mercado, sua
+        trajetória começa nas plantações da Bahia no nordeste do Brasil,
+        onde é colhido com todo o cuidado, e separado de acordo com a qualidade do grão e vai para a secagem. Após isso,
+        é carregado até o estado de Minas Gerais, para ir para as nossas torras importadas da suiça,
+        e depois ser embalado com nosso papel kraft de altíssima qualidade, para assim no fim, ser distribuído para os
+        nossos estabelecimentos em todo o Brasil.
+        Então se você está com vontade de provar do melhor, vem ser COFFEE, vem ser MASTER.
+      </p>
+    </div>
+    <div class="container-fluid products" id="coffees">
+      <h2>Produtos</h2>
+      <div class="row lineone">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe1.jpg" class="card-img-top" alt="cafe1">
+            <div class="card-body">
+              <h4 class="card-title">Colombia - R$36.50</h4>
+              <p class="card-text">Esta maravilha colombiana domina o paladar com uma explosão suculenta e um sabor
+                robusto, prova da riqueza do solo vulcânico. Seu final extraordinário, seco com toques de nozes, eleva
+                este café a um patamar superior. Prove um gole: você vai concordar que a escalada vale totalmente a
+                pena.</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe2.jpg" class="card-img-top" alt="cafe2">
+            <div class="card-body">
+              <h4 class="card-title">Verona - R$25.00</h4>
+              <p class="card-text">O Caffè Verona® é um sedutor blend de grãos da América Latina e da Indonésia, com um
+                toque suave de Italian Roast conferindo intensidade, alma e doçura.
+
+                Esta mistura deliciosa combina tão bem com chocolate que se tornou um favorito no Dia dos Namorados –
+                para nós, é o café que mais tem a ver com romance. Bella, Bella!</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe3.jpg" class="card-img-top" alt="cafe3">
+            <div class="card-body">
+              <h4 class="card-title">Espresso - R$16.80</h4>
+              <p class="card-text">É um blend especial de grãos da América Latina e da Ásia/Pacífico, um café de torra
+                escura com uma doçura rica e caramelizada.
+
+                Como esta mistura densa e encorpada possui um sabor intenso que resiste ao leite, é a base perfeita para
+                fazer um latte ou cappuccino em casa.
+
+                o espresso foi inventado na Itália.</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row line-two">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe4.jpg" class="card-img-top" alt="cafe4">
+            <div class="card-body">
+              <h4 class="card-title">Ethiopia - R$27.40</h4>
+              <p class="card-text">Amado, como o elefante que o simboliza. Ousado, como o sol se erguendo sobre o vale
+                Great Rift.
+
+                E grande – inundado em uma suculência encorpada que faz com que seus inúmeros fãs o reconheçam
+                imediatamente. Todas essas qualidades são próprias do nosso café Ethiopia.</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe5.jpg" class="card-img-top" alt="cafe5">
+            <div class="card-body">
+              <h4 class="card-title">Pike Place - R$20.00</h4>
+              <p class="card-text">No primeiro dia em que o Pike Place Market de Seattle abriu, no verão de 1907,
+                centenas de ávidos clientes arrebataram todos os produtos frescos da fazenda em questão de horas. Ao
+                meio-dia, não tinha sobrado nem uma folha de alface quando as carroças dos fazendeiros começaram a
+                deixar o local.</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/cafe6.jpg" class="card-img-top" alt="cafe6">
+            <div class="card-body">
+              <h4 class="card-title">Sumatra - R$32.75</h4>
+              <p class="card-text">Ele é encorpado e amanteigado, praticamente sem acidez, de modo que a intensidade e o
+                sabor do café se prolongam na boca. Em sua melhor forma, não há como confundir os toques herbáceos
+                concentrados e o aroma de terra – marcas características que esta bebida tão apreciada deixou em nossos
+                corações.</p>
+              <a href="#" class="btn">Veja mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="container-fluid footer">
+      <img src="./images/copyright.png" alt="copyright" width="20">
+      <a href="#">Coffee Master</a>
+      <a href="#">Av. Presidente Vargas 2080</a>
+      <a href="#">Fone: (55) 3216-1129</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
